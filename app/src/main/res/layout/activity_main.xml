@@ -9,6 +9,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
+        <!-- FragmentContainerView to host navigation graph -->
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView"
             android:name="androidx.navigation.fragment.NavHostFragment"
